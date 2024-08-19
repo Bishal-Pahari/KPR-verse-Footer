@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+}
+
+.container {
+  position: relative;
+}
+
+.subcontainer-wrapper {
+  z-index: 99;
+
+  position: absolute;
+}
+
+.subcontainer-invisible {
+  width: 100vw;
+  height: 100vh;
+  background: rgb(0, 0, 0, 0);
+}
+
+.img-common {
+  width: 100%;
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  .desktop {
+    display: block;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .tablet {
+    display: block;
+  }
+}
+
+@media (max-width: 767px) {
+  .mobile {
+    display: block;
+  }
+}
+
+/* Footer Styles */
+footer {
+  width: 100vw;
+  height: 100dvh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #202124;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 0;
+}
