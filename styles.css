@@ -8,8 +8,11 @@
 
 .subcontainer-wrapper {
   z-index: 99;
-
   position: absolute;
+}
+
+.subcontainer-visible {
+  background-color: #202124;
 }
 
 .subcontainer-invisible {
@@ -55,4 +58,9 @@ footer {
   text-align: center;
   font-family: Arial, sans-serif;
   padding: 0;
+}
+
+.footer-img {
+  width: 100%;
+  mix-blend-mode: color;
 }
